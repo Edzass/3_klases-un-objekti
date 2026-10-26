@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c5petnxthr048"]
+
+[ext_resource type="Script" uid="uid://7iyv87xsn406" path="res://Obstacle.cs" id="1_voiw8"]
+
+[node name="ObstacleDemo" type="Node" unique_id=1008913152]
+
+[node name="PrinterQueue" type="Node" parent="." unique_id=2101253109]
+script = ExtResource("1_voiw8")
+Penalty = 1
+metadata/_custom_type_script = "uid://7iyv87xsn406"
+
+[node name="WifiDrop" type="Node" parent="." unique_id=461669092]
+script = ExtResource("1_voiw8")
+ObstacleName = "Pazūd internets"
+Penalty = 12
+metadata/_custom_type_script = "uid://7iyv87xsn406"
+
+[node name="MissingMarker" type="Node" parent="." unique_id=1740358633]
+script = ExtResource("1_voiw8")
+ObstacleName = "Pazudis marķieris"
+Penalty = 8
+metadata/_custom_type_script = "uid://7iyv87xsn406"

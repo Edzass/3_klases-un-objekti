@@ -17,3 +17,5 @@ Signāla pieteikšana un raidīšana:
 	4. Tiek pievienota darbība, kas notiek, ja kādam no dalībniekiem spēlē ir beigusies.
 	5. Pēc sodu piemērošanas tiek izsaukta beigu darbība.
 "-=" atvieno Annas datus no turpmākas atspoguļošanas un izdrukas rezultātos.
+#3.4
+Mainot "PrinterQueue" sodu izmainās tikai šīs nodes soda vērtība.

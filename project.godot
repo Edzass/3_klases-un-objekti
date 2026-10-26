@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="LessonDemo"
-run/main_scene="uid://pk6g0dnddkbi"
+run/main_scene="uid://c5petnxthr048"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 

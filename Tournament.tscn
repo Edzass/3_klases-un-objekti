@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://6g6gqt4263de" path="res://TournamentManager.cs" id="1_b3kx3"]
 [ext_resource type="Script" uid="uid://bktxakny3xrv7" path="res://Participant.cs" id="2_c8e8c"]
+[ext_resource type="Script" uid="uid://7iyv87xsn406" path="res://Obstacle.cs" id="3_c8e8c"]
 
 [node name="Tournament" type="Node" unique_id=834360993]
 script = ExtResource("1_b3kx3")
@@ -11,3 +12,7 @@ script = ExtResource("2_c8e8c")
 
 [node name="Janis" type="Node" parent="." unique_id=1127834988]
 script = ExtResource("2_c8e8c")
+
+[node name="Obstacle" type="Node" parent="." unique_id=688351936]
+script = ExtResource("3_c8e8c")
+metadata/_custom_type_script = "uid://7iyv87xsn406"
