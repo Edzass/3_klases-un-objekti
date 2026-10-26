@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://pk6g0dnddkbi"]
+
+[ext_resource type="Script" uid="uid://6g6gqt4263de" path="res://TournamentManager.cs" id="1_b3kx3"]
+[ext_resource type="Script" uid="uid://bktxakny3xrv7" path="res://Participant.cs" id="2_c8e8c"]
+
+[node name="Tournament" type="Node" unique_id=834360993]
+script = ExtResource("1_b3kx3")
+
+[node name="Anna" type="Node" parent="." unique_id=1867280255]
+script = ExtResource("2_c8e8c")
+
+[node name="Janis" type="Node" parent="." unique_id=1127834988]
+script = ExtResource("2_c8e8c")
