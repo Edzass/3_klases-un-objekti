@@ -1,4 +1,3 @@
-using Godot;
 using System;
 
 public struct Stats
@@ -6,17 +5,16 @@ public struct Stats
 	public int Energy;
 	public int MaxEnergy;
 	public int Focus;
-}
 
-public partial class Stats : Node
-{
-	// Called when the node enters the scene tree for the first time.
-	public override void _Ready()
+	public Stats(int energy, int focus)
 	{
-
-
-  
+		Energy = energy;
+		MaxEnergy = energy;
+		Focus = 0;
 	}
-
-	
+	public void Heal(int amount)
+{
+	if (amount <= 0) return;
+	Energy = Math.Min(MaxEnergy, Energy + amount);
+}
 }
